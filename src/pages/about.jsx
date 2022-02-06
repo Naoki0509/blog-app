@@ -4,6 +4,8 @@ import styles from "src/styles/Home.module.css";
 import { useEffect, useCallback, useState } from "react";
 import { Footer } from "src/COmponents/Footer";
 export default function About() {
+	const [array, setArray] = useState([]);
+	const [list, setList] = useState([]);
 	return (
 		<div className={styles.container}>
 			<Head>
