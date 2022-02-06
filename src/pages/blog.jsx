@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "src/styles/Home.module.css";
 import { useEffect, useCallback, useState } from "react";
 import { Footer } from "src/COmponents/Footer";
-import { Header } from "src/Components/Header";
+import { Header } from "src/COmponents/Header";
 
 export default function About() {
 	return (

@@ -1,9 +1,9 @@
 import Head from "next/head";
 import styles from "src/styles/Home.module.css";
+import { Header } from "src/COmponents/Header";
 import { Footer } from "src/COmponents/Footer";
 import { useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/router";
-import { Header } from "src/COmponents/Header";
 
 export default function Home() {
 	return (
