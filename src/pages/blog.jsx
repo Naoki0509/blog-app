@@ -3,9 +3,9 @@ import Image from "next/image";
 import styles from "src/styles/Home.module.css";
 import { useEffect, useCallback, useState } from "react";
 import { Footer } from "src/COmponents/Footer";
+import { Header } from "src/Components/Header";
+
 export default function About() {
-	const [array, setArray] = useState([]);
-	const [list, setList] = useState([]);
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -14,7 +14,11 @@ export default function About() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<main className={styles.main}></main>
+			<Header />
+
+			<main className={styles.main}>
+				<div>aaaaaa</div>
+			</main>
 
 			<Footer />
 		</div>
