@@ -17,7 +17,8 @@ export default function About() {
 			<Header />
 
 			<main className={styles.main}>
-				<div>aaaaaa</div>
+				<div className="text-6xl font-bold font-serif">Blog Page</div>
+				<div></div>
 			</main>
 
 			<Footer />
