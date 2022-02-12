@@ -15,7 +15,12 @@ export default function Home() {
 			</Head>
 			<Header />
 			<main className={styles.main}>
-				<div className=""></div>
+				<div>
+					<h1 className="text-center font-bold font-serif text-5xl">Profile</h1>
+				</div>
+				<div>
+					<h1 className="text-center font-bold font-serif text-5xl">Skill</h1>
+				</div>
 			</main>
 			<Footer />
 		</div>

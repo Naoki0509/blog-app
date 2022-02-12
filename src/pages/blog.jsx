@@ -17,8 +17,18 @@ export default function About() {
 			<Header />
 
 			<main className={styles.main}>
-				<div className="text-6xl font-bold font-serif">Blog Page</div>
-				<div></div>
+				<div className="text-5xl font-bold font-serif">Blog</div>
+				<div className="text-left texxt-3xl">
+					<p>はじめまして。Naokiです。</p>
+					<p>私は現在、フロントエンドエンジニアを目指しています。</p>
+					<p>さて、僕はこのブログを通して、このブログを見てくださった方に、</p>
+					<p>
+						次の日により良くなるように日々のアドバイスのようなものを発信していけたらなと思っていますが、
+					</p>
+					<p>
+						まぁ日々感じた疑問だったり、思い描いたことをここに綴っていけたらなと思うのでどうぞよろしくお願いいたします。
+					</p>
+				</div>
 			</main>
 
 			<Footer />
