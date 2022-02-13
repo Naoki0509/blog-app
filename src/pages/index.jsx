@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "src/styles/Home.module.css";
+import Image from "next/image";
 import { Header } from "src/COmponents/Header";
 import { Footer } from "src/COmponents/Footer";
 import { useState, useEffect, useCallback } from "react";
@@ -17,6 +18,10 @@ export default function Home() {
 			<main className={styles.main}>
 				<div>
 					<h1 className="text-center font-bold font-serif text-5xl">Profile</h1>
+					<div>
+						<div className=""></div>
+						<div></div>
+					</div>
 				</div>
 				<div>
 					<h1 className="text-center font-bold font-serif text-5xl">Skill</h1>
