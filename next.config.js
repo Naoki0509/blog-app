@@ -1,3 +1,6 @@
 module.exports = {
-  reactStrictMode: true,
-}
+	reactStrictMode: true,
+	Images: {
+		formats: ["image/avif", "image/webp"],
+	},
+};
