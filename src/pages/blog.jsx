@@ -4,7 +4,8 @@ import styles from "src/styles/Home.module.css";
 import { useEffect, useCallback, useState } from "react";
 import { Footer } from "src/COmponents/Footer";
 import { Header } from "src/COmponents/Header";
-import { Blog } from "src/Components/BlogPage/Blog";
+import { Profile } from "src/Components/BlogPage/Profile";
+import { Main } from "src/Components/BlogPage/Main";
 
 export default function About() {
 	return (
@@ -15,7 +16,8 @@ export default function About() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Header />
-			<Blog />
+			<Profile />
+			<Main />
 			<Footer />
 		</div>
 	);
