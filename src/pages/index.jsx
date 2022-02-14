@@ -19,8 +19,7 @@ export default function Home() {
 				<div>
 					<h1 className="text-center font-bold font-serif text-5xl">Profile</h1>
 					<div>
-						<div className=""></div>
-						<div></div>
+						<div className="flex justify-center items-center"></div>
 					</div>
 				</div>
 				<div>
