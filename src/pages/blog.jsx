@@ -1,13 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "src/styles/Home.module.css";
-import { useEffect, useCallback, useState } from "react";
 import { Footer } from "src/COmponents/Footer";
 import { Header } from "src/COmponents/Header";
-import { Profile } from "src/Components/BlogPage/Profile";
-import { Main } from "src/Components/BlogPage/Main";
+import { Profile } from "src/COmponents/Profile";
+import Link from "next/link";
 
-export default function About() {
+export default function Blog() {
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -17,7 +15,6 @@ export default function About() {
 			</Head>
 			<Header />
 			<Profile />
-			<Main />
 			<Footer />
 		</div>
 	);

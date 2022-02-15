@@ -5,7 +5,7 @@ import { IoMdPin } from "react-icons/io";
 
 export function Profile() {
 	return (
-		<main className={styles.main}>
+		<div className={styles.main}>
 			<div className="lg:w-1/2 py-12 px-24 shadow-xl border-2 border-gray-200">
 				<h1 className="text-center font-serif font-bold text-4xl pb-12">
 					Profile
@@ -26,6 +26,6 @@ export function Profile() {
 					<p>Yokohama,Japan</p>
 				</div>
 			</div>
-		</main>
+		</div>
 	);
 }
