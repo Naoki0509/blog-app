@@ -13,7 +13,7 @@ export default function Home() {
 			<Header />
 			<main className={styles.main}>
 				<div className="flex items-center justify-center">
-					<h1>はじめまして</h1>
+					<h1 className="">はじめまして</h1>
 					<p></p>
 				</div>
 			</main>

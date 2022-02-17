@@ -5,8 +5,8 @@ import { IoMdPin } from "react-icons/io";
 
 export function Profile() {
 	return (
-		<div className={styles.main}>
-			<div className="lg:w-1/2 py-12 px-24 shadow-xl border-2 border-gray-200">
+		<div className="flex-col flex-1 justify-center items-center p-main min-h-screen">
+			<div className=" py-12 px-24 shadow-xl border-2 border-gray-200">
 				<h1 className="text-center font-serif font-bold text-4xl pb-12">
 					Profile
 				</h1>
@@ -14,7 +14,7 @@ export function Profile() {
 					<Image
 						src={ProfilePicture}
 						alt="Profile"
-						layout="fixed"
+						layout="intrinsic"
 						width={150}
 						height={150}
 						className="rounded-full"
