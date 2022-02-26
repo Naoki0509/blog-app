@@ -5,7 +5,7 @@ import { IoMdPin } from "react-icons/io";
 
 export function Profile() {
 	return (
-		<div className="flex-col flex-1 justify-center items-center p-main min-h-screen">
+		<div className="flex justify-center items-center">
 			<div className=" py-12 px-24 shadow-xl border-2 border-gray-200">
 				<h1 className="text-center font-serif font-bold text-4xl pb-12">
 					Profile

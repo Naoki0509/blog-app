@@ -3,7 +3,6 @@ import styles from "src/styles/Home.module.css";
 import { Footer } from "src/COmponents/Footer";
 import { Header } from "src/COmponents/Header";
 import { Profile } from "src/COmponents/Profile";
-import Link from "next/link";
 
 export default function Blog() {
 	return (
@@ -14,7 +13,7 @@ export default function Blog() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Header />
-			<div className="flex-col justify-center items-center flex-1 p-main">
+			<div className="min-h-screen flex-col flex-1 items-center justify-center">
 				<Profile />
 				<Footer />
 			</div>
