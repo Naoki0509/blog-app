@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Header } from "src/COmponents/Header";
-import { Footer } from "src/COmponents/Footer";
-import { Profile } from "src/COmponents/Profile";
+import { Header } from "src/Components/Header";
+import { Footer } from "src/Components/Footer";
+import { Profile } from "src/Components/Profile";
 import { Skill } from "src/COmponents/Skill";
 import { useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/router";
