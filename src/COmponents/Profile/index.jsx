@@ -1,4 +1,3 @@
-import styles from "src/styles/Home.module.css";
 import Image from "next/image";
 import ProfilePicture from "src/public/132046306626613212998.jpeg";
 import { IoMdPin } from "react-icons/io";
