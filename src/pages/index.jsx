@@ -18,8 +18,8 @@ export default function Home() {
 			<Header />
 			<div className="min-h-screen p-main flex-1 flex-col justify-center items-center ">
 				<Profile />
-				<Footer />
 			</div>
+			<Footer />
 		</div>
 	);
 }
