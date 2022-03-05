@@ -2,9 +2,6 @@ import Head from "next/head";
 import { Footer } from "src/Components/Footer";
 import { Header } from "src/Components/Header";
 import { Profile } from "src/Components/Profile";
-// import { Footer } from "src/Components/Footer";
-// import { Header } from "src/Components/Header";
-// import { Profile } from "src/Components/Profile";
 
 export default function Blog() {
 	return (
