@@ -2,9 +2,9 @@ import Head from "next/head";
 import Image from "next/image";
 import { useState, useEffect, useCallback } from "react";
 // import { useRouter } from "next/router";
-import { Header } from "src/Components/Header";
-import { Profile } from "src/Components/Profile";
-import { Footer } from "src/Components/Footer";
+import { Header } from "src/COmponents/Header";
+import { Profile } from "src/COmponents/Profile";
+import { Footer } from "src/COmponents/Footer";
 
 export default function Home() {
 	return (
