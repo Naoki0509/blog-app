@@ -1,4 +1,4 @@
-export function Skill() {
+export const Skill = () => {
 	return (
 		<div>
 			<div className="flex-row items-center justify-center">
@@ -20,4 +20,4 @@ export function Skill() {
 			</div>
 		</div>
 	);
-}
+};

@@ -2,7 +2,7 @@ import Image from "next/image";
 import ProfilePicture from "src/public/132046306626613212998.jpeg";
 import { IoMdPin } from "react-icons/io";
 
-export function Profile() {
+export const Profile = () => {
 	return (
 		<div className="flex justify-center items-center">
 			<div className=" py-12 px-24 shadow-xl border-2 border-gray-200">
@@ -27,4 +27,4 @@ export function Profile() {
 			</div>
 		</div>
 	);
-}
+};

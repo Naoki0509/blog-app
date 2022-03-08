@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export function Header() {
+export const Header = () => {
 	return (
 		<div className="flex fixed items-center justify-start pt-4">
 			<div className="text-4xl font-serif font-bold">N Blog</div>
@@ -20,4 +20,4 @@ export function Header() {
 			</div>
 		</div>
 	);
-}
+};

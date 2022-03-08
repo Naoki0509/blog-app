@@ -1,5 +1,5 @@
 import Image from "next/image";
-export function Footer() {
+export const Footer = () => {
 	return (
 		<div>
 			<footer className="flex flex-1 justify-center items-center border-gray-300 border-t">
@@ -16,4 +16,4 @@ export function Footer() {
 			</footer>
 		</div>
 	);
-}
+};
