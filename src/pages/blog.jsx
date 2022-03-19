@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { BlogMain } from "src/COmponents/BlogMain";
 import { Footer } from "src/COmponents/Footer";
 import { Header } from "src/COmponents/Header";
 import { Profile } from "src/COmponents/Profile";
@@ -15,6 +16,7 @@ export default function Blog() {
 				<Profile />
 				<div></div>
 				{/* <Theme /> */}
+				<BlogMain />
 			</div>
 			<Footer />
 		</div>
