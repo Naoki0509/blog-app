@@ -4,7 +4,10 @@ import { useState, useEffect, useCallback } from "react";
 import { Footer } from "src/COmponents/Footer";
 import { Header } from "src/COmponents/Header";
 import { Profile } from "src/COmponents/Profile";
-export default function Home() {
+import Link from "next/link";
+import { client } from "libs/client";
+
+export default function Home({ blog }) {
 	return (
 		<div>
 			<Head>
@@ -13,9 +16,18 @@ export default function Home() {
 			<Header />
 			<div className="min-h-screen p-main flex-1 flex-col justify-center items-center ">
 				<Profile />
-				<div></div>
 			</div>
 			<Footer />
 		</div>
 	);
 }
+
+export const getStaticProps = async () => {
+	const data = await client.get({ endpoint: "blog" });
+
+	return {
+		props: {
+			blog: data.contents,
+		},
+	};
+};
