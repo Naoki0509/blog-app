@@ -7,7 +7,7 @@ import { Profile } from "src/COmponents/Profile";
 import Link from "next/link";
 import { client } from "libs/client";
 
-export default function Home({ blog }) {
+export default function Home() {
 	return (
 		<div>
 			<Head>
@@ -21,13 +21,3 @@ export default function Home({ blog }) {
 		</div>
 	);
 }
-
-export const getStaticProps = async () => {
-	const data = await client.get({ endpoint: "blog" });
-
-	return {
-		props: {
-			blog: data.contents,
-		},
-	};
-};
