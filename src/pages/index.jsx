@@ -5,7 +5,6 @@ import { Footer } from "src/COmponents/Footer";
 import { Header } from "src/COmponents/Header";
 import { Profile } from "src/COmponents/Profile";
 import Link from "next/link";
-import { client } from "libs/client";
 
 export default function Home() {
 	return (
