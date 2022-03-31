@@ -1,5 +1,6 @@
 import { client } from "libs/client";
 import Head from "next/head";
+import { Footer } from "src/COmponents/Footer";
 import { Header } from "src/COmponents/Header";
 
 export default function BlogId({ blog }) {
@@ -9,7 +10,7 @@ export default function BlogId({ blog }) {
 				<title>{blog.title}</title>
 			</Head>
 			<Header />
-			<main>
+			<main className="min-h-screen p-main flex-col flex-1 items-center justify-center">
 				<h1>{blog.title}</h1>
 				<div
 					dangerouslySetInnerHTML={{
@@ -17,6 +18,7 @@ export default function BlogId({ blog }) {
 					}}
 				/>
 			</main>
+			<Footer />
 		</div>
 	);
 }
