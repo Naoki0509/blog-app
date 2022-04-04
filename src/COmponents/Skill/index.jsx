@@ -1,22 +1,24 @@
 export const Skill = () => {
+	const SkillITEMS = [
+		{ title: "HTML" },
+		{ title: "CSS" },
+		{ title: "Javascript" },
+		{ title: "React(Next.js)" },
+	];
 	return (
-		<div>
-			<div className="flex-row items-center justify-center">
-				<h1 className="text-center font-bold font-serif text-5xl">Skill</h1>
-				<div className="text-center">
-					<div>
-						<h1 className="font-serif font-bold text-3xl">HTML</h1>
-					</div>
-					<div>
-						<h1 className="font-serif font-bold text-3xl">CSS</h1>
-					</div>
-					<div>
-						<h1 className="font-serif font-bold text-3xl">JavaScript</h1>
-					</div>
-					<div>
-						<h1 className="font-serif font-bold text-3xl">React(Next.js)</h1>
-					</div>
-				</div>
+		<div className="flex flex-col  justify-center items-center pt-10">
+			<h1 className="text-center font-bold text-4xl">SKILL</h1>
+			<div className="grid grid-cols-1 gap-4">
+				{SkillITEMS.map((skill) => {
+					return (
+						<div
+							key={skill.title}
+							className="border-2 text-center text-bold font-serif p-10 text-4xl"
+						>
+							{skill.title}
+						</div>
+					);
+				})}
 			</div>
 		</div>
 	);
