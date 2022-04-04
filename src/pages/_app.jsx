@@ -1,5 +1,10 @@
 import "../styles/globals.css";
 import Head from "next/head";
+import {
+	ColorSchemeProvider,
+	MantineProvider,
+	ColorScheme,
+} from "@mantine/core";
 
 function MyApp({ Component, pageProps }) {
 	return (
