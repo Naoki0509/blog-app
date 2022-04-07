@@ -7,6 +7,7 @@ import {
 	Container,
 	Group,
 } from "@mantine/core";
+import Link from "next/link";
 
 const useStyles = createStyles((theme) => ({
 	root: {
@@ -55,7 +56,7 @@ export default function NotFoundTitle() {
 	return (
 		<Container className={classes.root}>
 			<div className={classes.label}>404</div>
-			<Title className={classes.title}>You have found a secret place.</Title>
+			<Title className={classes.title}>ページが見つかりませんでした.....</Title>
 			<Text
 				color="dimmed"
 				size="lg"
@@ -66,9 +67,13 @@ export default function NotFoundTitle() {
 				address, or the page has been moved to another URL.
 			</Text>
 			<Group position="center">
-				<Button variant="subtle" size="md">
-					Take me back to home page
-				</Button>
+				<Link href="/">
+					<a>
+						<Button variant="subtle" size="md">
+							Take me back to home page
+						</Button>
+					</a>
+				</Link>
 			</Group>
 		</Container>
 	);

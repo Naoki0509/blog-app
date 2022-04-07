@@ -14,12 +14,12 @@ export default function Blog({ blog }) {
 			<Header />
 			<div className="min-h-screen p-main flex-col flex-1 items-center justify-center">
 				<Profile />
-				<ul>
+				<ul className="grid grid-cols-3">
 					{blog.map((blog) => (
 						<li key={blog.id}>
 							<Link href={`/blog/${blog.id}`}>
 								<a>
-									<div className="grid flex-col shadow-lg bg-red-400">
+									<div className="shadow-lg border-2 border-gray-200">
 										<h1>{blog.title}</h1>
 										<p>{blog.SabTitle}</p>
 									</div>

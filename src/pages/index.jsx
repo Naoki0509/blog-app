@@ -14,7 +14,6 @@ export default function Home() {
 				<title>Create Next App</title>
 			</Head>
 			<Header />
-			<ButtonToggle />
 			<div className="min-h-screen p-main flex-1 flex-col justify-center items-center ">
 				<Profile />
 				<Skill />

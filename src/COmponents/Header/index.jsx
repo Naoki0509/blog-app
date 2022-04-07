@@ -18,7 +18,6 @@ export const Header = () => {
 					</li>
 				</ul>
 			</div>
-			<div className="lg:hidden absolute bottom-0 right-0 w-12 h-12 bg-blue-100"></div>
 		</div>
 	);
 };
