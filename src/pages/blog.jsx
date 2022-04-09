@@ -9,25 +9,30 @@ export default function Blog({ blog }) {
 	return (
 		<div>
 			<Head>
-				<title>Create Next App</title>
+				<title>N Blog</title>
 			</Head>
 			<Header />
 			<div className="min-h-screen p-main flex-col flex-1 items-center justify-center">
 				<Profile />
-				<ul className="grid grid-cols-3">
-					{blog.map((blog) => (
-						<li key={blog.id}>
-							<Link href={`/blog/${blog.id}`}>
-								<a>
-									<div className="shadow-lg border-2 border-gray-200">
-										<h1>{blog.title}</h1>
-										<p>{blog.SabTitle}</p>
-									</div>
-								</a>
-							</Link>
-						</li>
-					))}
-				</ul>
+				<div className="flex flex-col items-center justify-center py-14">
+					<h1 className="text-center font-serif font-bold text-4xl">
+						Blog List
+					</h1>
+					<ul className="grid flex-wrap grid-cols-3">
+						{blog.map((blog) => (
+							<li key={blog.id}>
+								<Link href={`/blog/${blog.id}`}>
+									<a>
+										<div className="p-6 space-y-6 shadow-lg border-2 border-gray-200">
+											<h1 className="font-bold text-2xl">{blog.title}</h1>
+											<p>{blog.SabTitle}</p>
+										</div>
+									</a>
+								</Link>
+							</li>
+						))}
+					</ul>
+				</div>
 			</div>
 			<Footer />
 		</div>
